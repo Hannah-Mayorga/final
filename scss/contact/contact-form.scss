@@ -1,0 +1,58 @@
+.contact-form {
+    max-width: $site-width;
+    margin: 0 auto 0 auto;
+ //   background-color: green;
+    .c-content {
+        width: $site-width;
+        height: 500px;
+        .contact-img {
+            float: left;
+            width: $contact-img-width;
+            height: $contact-img-height;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(../images/Screenshot\ 2022-06-22\ 033017.jpg);
+        }
+        .contact-box {
+            float: right;
+            width: $contact-box-width;
+            height: $contact-box-height;
+            background-color: #F5F5F5;
+            color: $site-black;
+            opacity: 50%;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .contact-message {
+            float: right;
+            width: $contact-box-width;
+            height: 199px;
+            background-color: #F5F5F5;
+            color: $site-black;
+            opacity: 50%;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .contact-btn {
+            float: left;
+            margin-top: 10px;
+            width: 133px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: $site-blue;
+            margin: 0 auto;
+            h2 {
+                font-family: gillSans;
+                font-size: 15px;
+                padding: 10px;
+                color: $site-white;
+            }
+        }
+    }
+}
+.address {
+    max-width: $site-width;
+    margin: 0 auto 0 auto;
+
+}

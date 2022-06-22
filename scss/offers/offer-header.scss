@@ -1,0 +1,72 @@
+.offers {
+    max-width: $site-width;
+    margin: 50px auto 0 auto;
+    .special-header {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-family: proximaNova;
+        position: relative;
+        display: inline;
+        .special-border {
+            border-bottom: 2px solid $site-black;
+            position: absolute;
+            width: 80%;
+            left: 0;
+            bottom: -2px;
+        }
+    }
+    .offer-container {
+        margin-top: 15px;
+        margin-bottom: 150px;
+        .offer-info {
+            width: 400px;
+            height: 300px;
+            position: relative;
+            .offers-header {
+            text-transform: uppercase;
+            font-size: 30px;
+            font-family: proximaNova;
+            position: relative;
+            display: inline;
+                .offers-border {
+                border-bottom: 2px solid $site-black;
+                position: absolute;
+                width: 80%;
+                left: 0;
+                bottom: -2px;
+            }
+            }
+            .offer-img {
+            width: $offers-img-width;
+            height: $offers-img-height;
+            float: left;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            }
+            .offers-btn {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 133px;
+                height: 40px;
+                border-radius: 20px;
+                background-color: $site-blue;
+                margin: 0 auto;
+                h2 {
+                    font-family: gillSans;
+                    font-size: 15px;
+                    padding: 10px;
+                    color: $site-white;
+                    text-align: center;
+                }
+            }
+            #offer1 {
+                background-image: url(../images/special-offer-01.jpg);
+            }
+            #offer2 {
+                background-image: url(../images/special-offer-02.jpg);
+            }
+        }
+    }
+}

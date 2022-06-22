@@ -1,0 +1,21 @@
+.blog-posts {
+  margin-top: 30px;
+}
+.blog-posts .post {
+  width: 960px;
+  height: 500px;
+}
+.blog-posts .post .dates {
+  width: 60px;
+  height: 60px;
+  background-color: gray;
+}
+.blog-posts .post .dates .date-num {
+  font-size: 20px;
+}
+.blog-posts .post .dates .month {
+  font-size: 12px;
+}
+.blog-posts .post .blog-details {
+  font-size: 12px;
+}

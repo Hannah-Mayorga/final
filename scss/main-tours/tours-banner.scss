@@ -1,0 +1,23 @@
+.tours-banner {
+    max-width: $tours-title-width;
+    height: $tours-title-height;
+    background-image:  linear-gradient(
+        rgba($site-black,.5),
+        rgba($site-black,.5)
+        ), 
+        url(../images/tours-header.jpg);
+    margin: 30px auto 0 auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .tours-title {
+        margin: 0 auto 0 auto;
+        text-align: center;
+        color: $site-white;
+        font-family: proximaNova;
+        font-size: 60px;
+        position: relative;
+        top: 50px;
+        
+    }
+}

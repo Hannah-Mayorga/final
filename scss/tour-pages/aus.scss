@@ -1,0 +1,94 @@
+// Page header
+.package-header {
+    max-width: $package-header-width;
+    height: $package-header-height;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    font-family: proximaNova;
+    color: $site-white;
+    .package-title {
+        .name {
+            font-size: 80px;
+        }
+        .price {
+            position: absolute;
+            font-size: 30px;
+            text-transform: uppercase;
+            bottom: 0;
+            right: 0;
+        }
+    }
+}
+#aus {
+    background-image: linear-gradient(rgba($site-black, .5),
+            rgba($site-black, .5)), url(../images/tour-03.jpg);
+}
+// Page images 
+.package-imgs {
+    width: $site-width;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .package-img {
+        width: $package-img-width;
+        height: $package-img-height;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    #aus1 {
+        background-image: url(../images/tour-imgs/aus-tour-01.jpg);
+    }
+    #aus2 {
+        background-image: url(../images/tour-imgs/aus-tour-02.jpg);
+    }
+    #aus3 {
+        background-image: url(../images/tour-imgs/aus-tour-03.jpg);
+    }
+}
+// Days 
+.days {
+    max-width: $site-width;
+    margin: 50px auto 0 auto;
+    .day-header {
+        text-transform: uppercase;
+        font-size: 60px;
+        font-family: proximaNova;
+        position: relative;
+        display: inline;
+        .day-border {
+            border-bottom: 2px solid $site-black;
+            position: absolute;
+            width: 80%;
+            left: 0;
+            bottom: -2px;
+        }
+    }
+    .day-desc {
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+}
+// Book button
+.book-btn {
+    width: 133px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: $site-blue;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    h2 {
+        font-family: gillSans;
+        font-size: 15px;
+        padding: 10px;
+        text-align: center;
+        color: $site-white;
+    }
+}
